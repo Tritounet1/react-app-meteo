@@ -1,0 +1,5 @@
+#searchBar {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}

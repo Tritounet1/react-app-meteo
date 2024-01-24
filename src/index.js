@@ -10,3 +10,7 @@ root.render(
     <SearchBar />
   </React.StrictMode>
 );
+
+
+// API pour la liste des villes : https://geo.api.gouv.fr/decoupage-administratif/communes
+// API pour la météo :  https://www.weatherapi.com/my/#

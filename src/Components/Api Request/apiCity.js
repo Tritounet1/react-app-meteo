@@ -1,6 +1,8 @@
+import ApiKey from '../../config'
+
 export const fetchCityData = async (cityName) => {
 
-    const key = "8926497e8b1046c19cf210630242401"
+    const key = ApiKey; // 8926497e8b1046c19cf210630242401
 
     const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${key}&q=${cityName}&aqi=no`);
     const data = await response.json();
